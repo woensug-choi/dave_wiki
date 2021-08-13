@@ -23,10 +23,43 @@
           box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('/OpenSansFonts/OpenSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('/OpenSansFonts/OpenSans-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('/OpenSansFonts/OpenSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('/OpenSansFonts/OpenSans-RegularItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'OpenSans-Semibold';
+  src: url('/OpenSansFonts/OpenSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
 
 html {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "OpenSans", sans-serif;
 }
 
 html,
@@ -38,7 +71,7 @@ body {
 
 html {
   /* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
-  font-family: "Noto Sans", sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-size: 15px;
   line-height: 1.85;
 }
@@ -119,7 +152,7 @@ a:focus {
 
 h1, h2, h3, h4, h5, h6 {
   /* font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; */
-  font-family: "Noto Sans", sans-serif;
+  font-family: "OpenSans", sans-serif;
   margin-bottom: .5rem;
   font-size: 1.4rem;
   color: #404040;
@@ -312,7 +345,7 @@ tbody tr:nth-child(odd) th {
 
 .masthead-title small {
   /* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
-  font-family: "Noto Sans", sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-size: 1rem;
   /*color: #c0c0c0;*/
   color : #ffffff;
@@ -321,7 +354,7 @@ tbody tr:nth-child(odd) th {
 
 h3.masthead-title {
 	/* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
-  font-family: "Noto Sans", sans-serif;
+  font-family: "OpenSans", sans-serif;
 	font-size: 1.8rem;
 	margin-top: 2px;
 }
@@ -373,7 +406,7 @@ h3.masthead-title {
   visibility: hidden;
   overflow-y: auto;
   /* font-family: "PT Sans", Helvetica, Arial, sans-serif; */
-  font-family: "Noto Sans", sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
