@@ -31,8 +31,8 @@ body {
 }
 
 html {
-  /*font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;*/
-  font-family: "나눔고딕", NanumGothic, serif;
+  /* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 15px;
   line-height: 1.85;
 }
@@ -305,7 +305,8 @@ tbody tr:nth-child(odd) th {
 }
 
 .masthead-title small {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  /* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   /*color: #c0c0c0;*/
@@ -314,7 +315,8 @@ tbody tr:nth-child(odd) th {
 }
 
 h3.masthead-title {
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	/* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 1.8rem;
 	margin-top: 2px;
 }
@@ -365,7 +367,8 @@ h3.masthead-title {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  /* font-family: "PT Sans", Helvetica, Arial, sans-serif; */
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
