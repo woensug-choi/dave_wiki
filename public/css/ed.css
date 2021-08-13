@@ -1,21 +1,21 @@
 @font-face {
   font-family: "OpenSans";
   src: url("../../OpenSansFonts/OpenSans-Regular.ttf") format('truetype');
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "OpenSans";
   src: url("../../OpenSansFonts/OpenSans-Bold.ttf") format('truetype');
-  font-weight: 400;
+  font-weight: 600;
   font-style: bold;
 }
 
 @font-face {
   font-family: "OpenSans";
   src: url("../../OpenSansFontsOpenSans-Italic.ttf") format('truetype');
-  font-weight: 400;
+  font-weight: 300;
   font-style: italic;
 }
 
