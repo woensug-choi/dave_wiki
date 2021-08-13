@@ -121,7 +121,6 @@ h1, h2, h3, h4, h5, h6 {
   /* font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; */
   font-family: 'Noto Sans', sans-serif;
   margin-bottom: .5rem;
-  font-weight: 600;
   font-size: 1.4rem;
   color: #404040;
   letter-spacing: -.025rem;
@@ -315,7 +314,6 @@ tbody tr:nth-child(odd) th {
   /* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
   font-family: 'Noto Sans', sans-serif;
   font-size: 1rem;
-  font-weight: 400;
   /*color: #c0c0c0;*/
   color : #ffffff;
   letter-spacing: 0;
