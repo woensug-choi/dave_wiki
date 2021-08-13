@@ -8,7 +8,7 @@ This guide explains how to build and run the Dave simulation environment. Make s
 ## Step 1: Set up Your Development Environment
 To build the Dave software, you need a development environment with the necessary dependencies installed (these include ROS, Gazebo and some utilities). There are two ways to do this:
 
-### Option A: [Configure Your Host Machine](https://github.com/Field-Robotics-Lab/dave/wiki/Install-Directly-on-Host)
+### Option A: [Configure Your Host Machine]({{site.baseurl}}/Documents/Install-Directly-on-Host)
 Set up your host machine as your development environment.
 * This involves installing all dependencies directly on the host itself.
 * This is the simplest option provided you are willing to set up your machine to use the specific version of Ubuntu/ROS/Gazebo listed in the [[System Requirements]].
