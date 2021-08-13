@@ -64,11 +64,18 @@
 .css .o + .nt,
 .css .nt + .nt { color: #999; }
 
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("../../RobotoMonoFonts/RobotoMono-VariableFont_wght.ttf.ttf") format('truetype');
+  font-weight: 300;
+  font-style: monospace;
+}
+
 /* Transfered from poole.css */
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: "Roboto Mono", "Courier New", monospace;
 }
 code {
   padding: .25em .5em;
@@ -99,7 +106,7 @@ pre code {
 
 /* Gist via GitHub Pages */
 .gist .gist-file {
-  font-family: Menlo, Monaco, "Courier New", monospace !important;
+  font-family: "Roboto Mono", "Courier New", monospace !important;
 }
 .gist .markdown-body {
   padding: 15px;
