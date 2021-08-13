@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: "OpenSans";
-  src: url("../OpenSansFonts/OpenSans-RegularItalic.ttf") format('truetype');
+  src: url("../../OpenSansFontsOpenSans-Italic.ttf") format('truetype');
   font-weight: 400;
   font-style: italic;
 }
