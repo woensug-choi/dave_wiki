@@ -1,7 +1,5 @@
 ---
-layout: page
-title: home_page
-author: Woensug Eric Choi
+layout: default
 ---
 
 # Project `dave`
