@@ -1,6 +1,6 @@
 ---
-layout: page
-title: home_page
+layout: default
+title: home_default
 author: Woensug Eric Choi
 ---
 
